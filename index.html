@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>自己組織化エージェント</title>
+  <style>
+    body {
+      margin-bottom: 12px;
+    }
+
+    .github-button {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background-color: #24292E;
+      /* GitHubの色 */
+      padding: 5px 16px;
+      font-size: 14px;
+      line-height: 1.5;
+      border-radius: 3px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .github-button:hover {
+      background-color: #404448;
+    }
+
+    .github-button:focus {
+      outline: none;
+    }
+
+    .github-icon {
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
 </head>
+
 <body>
   <canvas id="canvas" width="800" height="600"></canvas>
   <button id="initButton">エージェントを初期化</button>
+  <a href="https://github.com/ksmzn/self-organizing-agents" class="github-button">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" height="20"
+      alt="GitHub" class="github-icon"> GitHub
+  </a>
   <script src="script.js"></script>
 </body>
+
 </html>
